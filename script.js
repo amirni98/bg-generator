@@ -10,7 +10,7 @@ var body = document.getElementById("gradient");
 function colorChange() {
 	body.style.background = "linear-gradient(to right, "+ c1.value+", "+c2.value+")";
 	css.textContent = "\""+body.style.background + "\";";
-	h2.style.background = "linear-gradient(to left, "+ c1.value+", "+c2.value+")";
+	h2.style.background = "linear-gradient(to right, "+ c1.value+", "+c2.value+")";
 }
 
 colorChange();
